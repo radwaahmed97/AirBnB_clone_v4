@@ -41,7 +41,7 @@ function searchPlacesAmenities () {
       $('SECTION.places').empty();
       for (const r of response) {
         const article = ['<article>',
-        '<div class="title_box">',
+          '<div class="title_box">',
         `<h2>${r.name}</h2>`,
         `<div class="price_by_night">$${r.price_by_night}</div>`,
         '</div>',
